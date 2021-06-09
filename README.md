@@ -16,9 +16,9 @@ Para crear la imagen de prod ubicarse en carpeta my-sql-prod y ejecutar:
 
 Para deployar:
 
-```docker run --name my-mysql-test -d my-mysql-test:latest```
+```docker run -d -p 3306:3306 --name my-mysql-test  mysql-test:latest```
 
-```docker run --name my-mysql-prod -d my-mysql-prod:latest```
+```docker run -d  -p 3306:3306 --name my-mysql-prod mysql-prod:latest```
 
 La aplicacion arranca con datos suficientes para cargar usuarios.
 
