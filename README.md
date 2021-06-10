@@ -4,7 +4,7 @@
 
 Resolver la configuración inicial y deploy de las imágenes de Docker para las bases de datos.
 
-Para crear la imagen de test ubicarse en carpeta my-sql y ejecutar: 
+Para crear la imagen de test ubicarse en carpeta my-sql y ejecutar:
 
 ```
 docker build . -t lemoncash-mysql-prod --build-arg MYSQL_DATABASE=lemoncash
